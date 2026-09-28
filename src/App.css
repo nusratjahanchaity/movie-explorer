@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+.navbar { display: flex; justify-content: space-between; padding: 15px 30px; background: #111; color: white; }
+.navbar button { background: #e50914; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
+.hero { height: 80vh; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1536440136628-849c177e76a1'); background-size: cover; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.hero h1 { font-size: 45px; } .hero p { margin: 15px; color: #ccc; }
+.hero button { background: #e50914; color: white; border: none; padding: 12px 25px; border-radius: 5px; cursor: pointer; }
+.footer { background: #111; color: white; text-align: center; padding: 20px; margin-top: 20px; }
+.search-box { text-align: center; margin: 20px; }
+.search-box input { width: 280px; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+.movie-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+.card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+.card img { width: 100%; height: 270px; object-fit: cover; }
+.card-body { padding: 10px; } .card-body button { width: 100%; margin-top: 10px; padding: 7px; background: #111; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.modal-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); display: flex; justify-content: center; align-items: center; }
+.modal { background: white; width: 90%; max-width: 600px; border-radius: 10px; overflow: hidden; }
+.modal img { width: 100%; height: 300px; object-fit: cover; }
+.modal-content { padding: 15px; }
+.close-btn { float: right; background: red; color: white; border: none; padding: 5px 10px; margin: 10px; cursor: pointer; }
